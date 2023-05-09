@@ -32,6 +32,7 @@ document.querySelector('.check').addEventListener('click', function () {
       document.querySelector('.score').textContent = 0;
     }
     // when the number is too low
+    // just for test
   } else if (guess < secretNumber) {
     if (score > 1) {
       score--;
